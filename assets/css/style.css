@@ -130,30 +130,31 @@ a {
 @media (max-width : 479px) {
 
     .nav-trans{
-        font-size: 0.60em;
-        margin-left: 10%;
+        font-size: 0.50em;
+        margin-left: 15%;
     }
 
     .nav-img{
         display: table;
         margin-top: 5%;
-        margin-left: 15%;
+        margin-left: 27%;
     }
  
 }
 
 
 
-@media (min-width : 320px) and (max-width: 478px){
+@media (min-width : 320px) and (max-width : 475px){
     .nav-trans{
-        font-size: 0.50em;
-        margin-left: 17%;
+        font-size: 0.55em;
+        margin-left: 9%;
     }
 
     .nav-img{
+      width: 155px;
         display: table;
         margin-top: 5%;
-        margin-left: 17%;
+        margin-left: 20%;
     }
 }
  
