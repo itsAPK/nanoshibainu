@@ -3,6 +3,7 @@
 
 
 
+
 html{
     overflow-x: hidden !important;
     width: 100%;
@@ -18,7 +19,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-size: 14px;
-    background-color: hsl(271, 100%, 91%);
+    background-color: hsl(256, 100%, 98%);
 }
 
 li {
@@ -34,7 +35,7 @@ a {
     font-family: "Raleway", Arial, sans-serif;
     text-align: left;
     text-transform: uppercase;
-    font-size: 0.75em;
+    font-size: 0.95em;
     font-weight: 800;
     margin-left: auto;
     margin-bottom: 2%;
@@ -52,7 +53,7 @@ a {
   }
   .nav-trans a {
     padding: 0.5em 0;
-    color: rgba(48, 48, 48, 0.5);
+    color: rgb(79, 0, 169);
     position: relative;
     letter-spacing: 1px;
     text-decoration: none;
@@ -60,7 +61,7 @@ a {
   .nav-trans a:before,
   .nav-trans a:after {
     position: absolute;
-    -webkit-transition: all 0.35s ease;
+    -webkit-transition:all  0.35s linear;
     transition: all 0.35s ease;
   }
   .nav-trans a:before {
@@ -69,25 +70,27 @@ a {
     height: 3px;
     width: 0%;
     content: "";
-    background-color: hsl(275, 100%, 40%);
+    background-color: hsl(275, 100%, 25%);
   }
   .nav-trans a:after {
     left: 0;
     top: 0;
     padding: 0.5em 0;
     position: absolute;
-    content: attr(data-hover);
-    color: #000000;
+    
+   
     white-space: nowrap;
     max-width: 0%;
     overflow: hidden;
   }
   .nav-trans a:hover:before,
   .nav-trans .current a:before {
-    opacity: 1;
+    opacity: 0.5;
     width: 100%;
   }
   .nav-trans a:hover:after,
   .nav-trans .current a:after {
     max-width: 100%;
   }
+
+
