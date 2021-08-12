@@ -130,11 +130,13 @@ a {
 @media (max-width : 479px) {
 
     .nav-trans{
-        font-size: 0.50em;
-        margin-left: 15%;
+       
+        font-size: 0.60em;
+        margin-left: 14%;
     }
 
     .nav-img{
+      width: 175px;
         display: table;
         margin-top: 5%;
         margin-left: 27%;
@@ -144,7 +146,7 @@ a {
 
 
 
-@media (min-width : 320px) and (max-width : 475px){
+@media (min-width : 320px) and (max-width : 400px){
     .nav-trans{
         font-size: 0.55em;
         margin-left: 9%;
