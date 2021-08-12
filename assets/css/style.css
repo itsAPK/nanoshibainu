@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,800");
+
+
+
+
+html{
+    overflow-x: hidden !important;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+
+body{
+    border: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+    background-color: hsl(271, 100%, 91%);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav-trans {
+    font-family: "Raleway", Arial, sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: 800;
+    margin-left: auto;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    width: calc(100% + 3.05rem);
+  }
+  .nav-trans * {
+    box-sizing: border-box;
+  }
+  .nav-trans li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1.5em;
+    padding: 0;
+  }
+  .nav-trans a {
+    padding: 0.5em 0;
+    color: rgba(48, 48, 48, 0.5);
+    position: relative;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  .nav-trans a:before,
+  .nav-trans a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .nav-trans a:before {
+    bottom: 0;
+    display: block;
+    height: 3px;
+    width: 0%;
+    content: "";
+    background-color: hsl(275, 100%, 40%);
+  }
+  .nav-trans a:after {
+    left: 0;
+    top: 0;
+    padding: 0.5em 0;
+    position: absolute;
+    content: attr(data-hover);
+    color: #000000;
+    white-space: nowrap;
+    max-width: 0%;
+    overflow: hidden;
+  }
+  .nav-trans a:hover:before,
+  .nav-trans .current a:before {
+    opacity: 1;
+    width: 100%;
+  }
+  .nav-trans a:hover:after,
+  .nav-trans .current a:after {
+    max-width: 100%;
+  }
