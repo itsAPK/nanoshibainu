@@ -146,14 +146,14 @@ a {
 
 @media (min-width : 320px) and (max-width: 478px){
     .nav-trans{
-        font-size: 0.60em;
-        margin-left: 10%;
+        font-size: 0.50em;
+        margin-left: 17%;
     }
 
     .nav-img{
         display: table;
         margin-top: 5%;
-        margin-left: 15%;
+        margin-left: 17%;
     }
 }
  
