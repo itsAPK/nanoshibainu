@@ -47,7 +47,7 @@ a {
     margin-top: 5%;
     width: calc(100% + 3.05rem);
     animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 5s;
+    animation-duration: 10s;
   }
   .nav-trans * {
     box-sizing: border-box;
@@ -117,11 +117,33 @@ a {
 
 /* Medium Devices, Desktops */
 @media (min-width : 992px) {
+  .nav-trans{
+    font-size: 0.70em;
+    margin-left: 14%;
+    margin-top: 2%;
+  }
+
+    .nav-img{
+      display: table;
+      margin-top: 5%;
+      margin-left: 15%;
+    }
+      
 
 }
 
-@media (max-width : 767px){
+@media (max-width : 768px){
+  .nav-trans{
+    font-size: 0.70em;
+    margin-left: 14%;
+    margin-top: 2%;
+  }
 
+    .nav-img{
+      display: table;
+      margin-top: 5%;
+      margin-left: 19%;
+    }
 	
 }
 
