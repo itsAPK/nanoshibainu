@@ -31,16 +31,23 @@ a {
 }
 
 
+
 .nav-trans {
     font-family: "Raleway", Arial, sans-serif;
     text-align: left;
     text-transform: uppercase;
-    font-size: 0.95em;
+    display: table;
+    float: left;
+    vertical-align: middle;
+    padding: 0;
+    font-size: 15px;
     font-weight: 800;
     margin-left: auto;
     margin-bottom: 2%;
     margin-top: 5%;
     width: calc(100% + 3.05rem);
+    animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s;
   }
   .nav-trans * {
     box-sizing: border-box;
@@ -93,4 +100,61 @@ a {
     max-width: 100%;
   }
 
+.nav-img{
+    display: table;
+    margin-top: 5%;
+    margin-left: 25%;
+    animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s;
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+}
+
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+
+}
+
+@media (max-width : 767px){
+
+	
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media (max-width : 479px) {
+
+    .nav-trans{
+        font-size: 0.60em;
+        margin-left: 10%;
+    }
+
+    .nav-img{
+        display: table;
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+ 
+}
+
+
+
+@media (min-width : 320px) and (max-width: 478px){
+    .nav-trans{
+        font-size: 0.60em;
+        margin-left: 10%;
+    }
+
+    .nav-img{
+        display: table;
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+}
+ 
 
