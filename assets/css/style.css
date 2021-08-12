@@ -130,13 +130,12 @@ a {
 @media (max-width : 479px) {
 
     .nav-trans{
-       
         font-size: 0.60em;
         margin-left: 14%;
     }
 
     .nav-img{
-      width: 175px;
+        width: 175px;
         display: table;
         margin-top: 5%;
         margin-left: 27%;
