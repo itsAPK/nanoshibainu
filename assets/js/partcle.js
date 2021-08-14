@@ -43,7 +43,7 @@ particlesJS("particles-js", {
     detect_on: "window",
     events: {
       onhover: { enable: false, mode: "repulse" },
-      onclick: { enable: false, mode: "push" },
+      onclick: { enable: true, mode: "push" },
       resize: true,
     },
     modes: {
