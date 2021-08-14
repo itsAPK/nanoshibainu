@@ -303,9 +303,11 @@ p {
 }
 
 
+.tag-heading{
+    margin-top: 7%;
+    text-align: center;
 
-
-
+}
 
 
 
@@ -389,13 +391,19 @@ p {
   }
 
   .p-text{
-    font-size: 0.55em;
+    font-size: 0.75em;
   }
 
   .logo{
     width: 280px;
     margin-left: 18%;
   }
+
+  .tag-heading{
+    margin-top: 15%;
+    
+
+}
 
 }
 
@@ -417,7 +425,7 @@ p {
   }
 
   .p-text{
-    font-size: 0.55em;
+    font-size: 0.65em;
     margin-left: 3%;
   }
 
