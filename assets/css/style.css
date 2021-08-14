@@ -397,6 +397,7 @@ p {
   .logo{
     width: 280px;
     margin-left: 18%;
+    margin-bottom: 20%;
   }
 
   .tag-heading{
@@ -432,5 +433,6 @@ p {
   .logo{
     width: 200px;
     margin-left: 18%;
+    margin-bottom: 20%;
   }
 }
