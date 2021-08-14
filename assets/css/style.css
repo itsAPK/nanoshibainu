@@ -386,10 +386,11 @@ p {
 
   .head-text{
     font-size: 45px;
+    margin-top: 5%;
   }
 
   .p-text{
-    font-size: 0.55em;
+    font-size: 0.75em;
   }
 
   .logo{
