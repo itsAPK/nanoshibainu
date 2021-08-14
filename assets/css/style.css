@@ -398,6 +398,10 @@ p {
     margin-left: 10%;
   }
 
+  section{
+    margin-top: 25%;
+  }
+
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
