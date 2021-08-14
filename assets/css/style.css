@@ -386,20 +386,15 @@ p {
 
   .head-text{
     font-size: 45px;
-    
   }
 
   .p-text{
-    font-size: 0.75em;
+    font-size: 0.55em;
   }
 
   .logo{
-    width: 200px;
-    margin-left: 10%;
-  }
-
-  section{
-    margin-top: 25%;
+    width: 280px;
+    margin-left: 18%;
   }
 
 }
@@ -419,11 +414,10 @@ p {
 
   .head-text{
     font-size: 45px;
-    margin-top: 5%;
   }
 
   .p-text{
-    font-size: 0.75em;
+    font-size: 0.55em;
     margin-left: 3%;
   }
 
