@@ -1,184 +1,280 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,800");
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 
-
-
-
-
-html{
-    overflow-x: hidden !important;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+html {
+  overflow-x: hidden !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background-color: #dfd1ff;
+}
 
-body{
-    border: 0;
-	margin: 0;
-	padding: 0;
-	font-size: 14px;
-    background-color: hsl(256, 100%, 98%);
+ /* ---- particles.js container ---- */
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #f5d7ff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
+h1 {
+  
+  color: hsl(275, 100%, 19%);
+}
 
+p {
+  color: hsl(275, 61%, 34%);
+  display: flex;
+}
 
 .nav-trans {
-    font-family: "Raleway", Arial, sans-serif;
-    text-align: left;
-    text-transform: uppercase;
-    display: table;
-    float: left;
-    vertical-align: middle;
-    padding: 0;
-    font-size: 15px;
-    font-weight: 800;
-    margin-left: auto;
-    margin-bottom: 2%;
-    margin-top: 5%;
-    width: calc(100% + 3.05rem);
-    animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 10s;
-  }
-  .nav-trans * {
-    box-sizing: border-box;
-  }
-  .nav-trans li {
-    display: inline-block;
-    list-style: outside none none;
-    margin: 0 1.5em;
-    padding: 0;
-  }
-  .nav-trans a {
-    padding: 0.5em 0;
-    color: rgb(79, 0, 169);
-    position: relative;
-    letter-spacing: 1px;
-    text-decoration: none;
-  }
-  .nav-trans a:before,
-  .nav-trans a:after {
-    position: absolute;
-    -webkit-transition:all  0.35s linear;
-    transition: all 0.35s ease;
-  }
-  .nav-trans a:before {
-    bottom: 0;
-    display: block;
-    height: 3px;
-    width: 0%;
-    content: "";
-    background-color: hsl(275, 100%, 25%);
-  }
-  .nav-trans a:after {
-    left: 0;
-    top: 0;
-    padding: 0.5em 0;
-    position: absolute;
-    
-   
-    white-space: nowrap;
-    max-width: 0%;
-    overflow: hidden;
-  }
-  .nav-trans a:hover:before,
-  .nav-trans .current a:before {
-    opacity: 0.5;
-    width: 100%;
-  }
-  .nav-trans a:hover:after,
-  .nav-trans .current a:after {
-    max-width: 100%;
-  }
+  font-family: "Raleway", Arial, sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  display: table;
+  float: left;
+  vertical-align: middle;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 800;
+  margin-left: auto;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  width: calc(100% + 3.05rem);
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 15s;
+}
+.nav-trans * {
+  box-sizing: border-box;
+}
+.nav-trans li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  padding: 0;
+}
+.nav-trans a {
+  padding: 0.5em 0;
+  color: rgb(79, 0, 169);
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.nav-trans a:before,
+.nav-trans a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s ease;
+}
+.nav-trans a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: hsl(275, 100%, 25%);
+}
+.nav-trans a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
 
-.nav-img{
-    display: table;
-    margin-top: 5%;
-    margin-left: 25%;
-    animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 5s;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.nav-trans a:hover:before,
+.nav-trans .current a:before {
+  opacity: 0.5;
+  width: 100%;
+}
+.nav-trans a:hover:after,
+.nav-trans .current a:after {
+  max-width: 100%;
 }
 
+.nav-img {
+  display: table;
+  margin-top: 5%;
+  margin-left: 25%;
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 15s;
+}
 
+.grid {
+  display: grid;
+  height: 85vh;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-top: 50px;
+  vertical-align: middle;
+  animation: heartBeat 15s infinite;
+}
+.atom {
+  position: absolute;
+  top: 0;
+  height: auto;
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 65%;
+  margin-top: 10%;
+  animation: flash 15s infinite;
+}
+
+.head-text {
+  font-family: "Viga", sans-serif;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 70px;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+/* Demo purposes only */
+.p-text {
+  font-family: "Merriweather", serif;
+  position: relative;
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-top: 5%;
+  letter-spacing: 0.05rem;
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 10s;
+}
 
 /* Large Devices, Wide Screens */
-@media (min-width : 1200px) {
+@media (min-width: 1200px) {
 }
-
 
 /* Medium Devices, Desktops */
-@media (min-width : 992px) {
-  .nav-trans{
-    font-size: 0.70em;
+@media (min-width: 992px) {
+  .nav-trans {
+    font-size: 0.7em;
     margin-left: 14%;
     margin-top: 2%;
   }
 
-    .nav-img{
-      display: table;
-      margin-top: 5%;
-      margin-left: 15%;
-    }
-      
-
+  .nav-img {
+    display: table;
+    margin-top: 5%;
+    margin-left: 15%;
+  }
 }
 
-@media (max-width : 768px){
-  .nav-trans{
-    font-size: 0.70em;
+@media (max-width: 768px) {
+  .nav-trans {
+    font-size: 0.7em;
     margin-left: 14%;
     margin-top: 2%;
   }
 
-    .nav-img{
-      display: table;
-      margin-top: 5%;
-      margin-left: 19%;
-    }
-	
+  .nav-img {
+    display: table;
+    margin-top: 5%;
+    margin-left: 19%;
+  }
 }
 
+/* Extra Small Devices, Phones */
+@media (max-width: 479px) {
+  .nav-trans {
+    font-size: 0.6em;
+    margin-left: 14%;
+  }
 
-/* Extra Small Devices, Phones */ 
-@media (max-width : 479px) {
+  .nav-img {
+    width: 175px;
+    display: table;
+    margin-top: 5%;
+    margin-left: 27%;
+  }
 
-    .nav-trans{
-        font-size: 0.60em;
-        margin-left: 14%;
-    }
+  .head-text{
+    font-size: 45px;
+  }
 
-    .nav-img{
-        width: 175px;
-        display: table;
-        margin-top: 5%;
-        margin-left: 27%;
-    }
- 
+  .p-text{
+    font-size: 10px;
+  }
+
+  .logo{
+    width: 170px;
+    margin-left: 20%;
+  }
+
 }
 
+@media (min-width: 320px) and (max-width: 400px) {
+  .nav-trans {
+    font-size: 0.55em;
+    margin-left: 9%;
+  }
 
+  .nav-img {
+    width: 155px;
+    display: table;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
 
-@media (min-width : 320px) and (max-width : 400px){
-    .nav-trans{
-        font-size: 0.55em;
-        margin-left: 9%;
-    }
+  .head-text{
+    font-size: 45px;
+  }
 
-    .nav-img{
-      width: 155px;
-        display: table;
-        margin-top: 5%;
-        margin-left: 20%;
-    }
+  .p-text{
+    font-size: 10px;
+  }
+
+  .logo{
+    width: 170px;
+    margin-left: 20%;
+  }
 }
- 
-
