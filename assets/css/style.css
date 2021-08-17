@@ -5,6 +5,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css");
+
 html {
   overflow-x: hidden !important;
   width: 100%;
@@ -364,7 +367,7 @@ l {
 
 
 .card-div{
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   margin-top : 4%;
   
   
@@ -377,6 +380,86 @@ l {
   box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
   transition: all 800ms cubic-bezier(0.15, 1, 0.2, 1);
 }
+
+
+.social-container {
+  width: 400px;
+  margin: 10vh auto;
+  text-align: center;
+}
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.2em;
+}
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  transition: all 265ms ease-out;
+}
+.social-icons a {
+  display: inline-block;
+}
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #4400ff, #c648c8);
+  transition: all 265ms ease-out;
+}
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #9900ff;
+  background: -webkit-linear-gradient(45deg, #4c00ff, #c648c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+.social-icons a.social-square:before {
+  background: linear-gradient(45deg, #7b00e0, #ae31d9);
+  border-radius: 10%;
+}
+.social-icons a.social-square:hover:before {
+  transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -webkit-transform: scale(-180deg);
+  border-radius: 100%;
+}
+.social-icons a.social-square:hover i {
+  transform: scale(1.6);
+  -ms-transform: scale(1.6);
+  -webkit-transform: scale(1.6);
+  color: #fff;
+  transform: scale(1.6);
+  -webkit-text-fill-color: #fff;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -404,6 +487,9 @@ l {
     
   }
 }
+
+
+
 
 
 /* Medium Devices, Desktops */
