@@ -384,8 +384,10 @@ l {
 
 .social-container {
   width: 400px;
-  margin: 10vh auto;
-  text-align: center;
+  margin-right: 2%;
+  
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 10s;
 }
 .social-icons {
   padding: 0;
