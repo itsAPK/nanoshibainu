@@ -22,6 +22,8 @@ body {
   background-color: #f3eeff;
 }
 
+
+
  /* ---- particles.js container ---- */
 #particles-js {
   position: fixed;
@@ -50,6 +52,16 @@ h1 {
 p {
   color: hsl(275, 61%, 34%);
   display: flex;
+}
+
+l {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 .nav-trans {
@@ -304,11 +316,67 @@ p {
 
 
 .tag-heading{
-    top: 7%;
+    top: 5%;
     align-items: center;
 
 }
 
+.card {
+  background-color: hsl(275, 100%, 90%);
+  margin-top: 10%;
+  margin-left: auto;
+  height: auto;
+  justify-content: space-between;
+  
+  
+}
+
+
+
+.cardtext {
+  font-family: "Viga", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 25%;
+  letter-spacing: 0.05rem;
+}
+
+.cardheading {
+  font-family: "Raleway", Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2%;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.05rem;
+}
+
+.cardimage {
+  position: relative;
+  overflow: hidden;
+  width: 130px;
+  height: auto;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-left: 20%;
+}
+
+
+.card-div{
+  margin-bottom: 20%;
+  margin-top : 4%;
+  
+  
+}
+
+.card:hover {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  cursor: pointer;
+  box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+  transition: all 800ms cubic-bezier(0.15, 1, 0.2, 1);
+}
 
 
 
@@ -324,6 +392,16 @@ p {
   .timeline ul li:nth-child(even) div {
     left: -289px;
     /*250+45-6*/
+  }
+
+  .card{
+    margin-right: auto;
+    margin-top: 15%;
+  }
+
+  .card-div{
+    margin-left: auto; 
+    
   }
 }
 
@@ -341,6 +419,17 @@ p {
     margin-top: 5%;
     margin-left: 15%;
   }
+  
+  .card{
+    margin-right: auto;
+    margin-top: 15%;
+  }
+
+  .card-div{
+    margin-left: auto; 
+    
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -370,6 +459,17 @@ p {
     border-width: 8px 16px 8px 0;
     border-color: transparent hsl(275, 100%, 90%) transparent transparent;
   }
+
+  .card{
+    margin-right: auto;
+    margin-top: 15%;
+  }
+
+  .card-div{
+    margin-left: auto; 
+    
+  }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -404,7 +504,17 @@ p {
     top: 15%;
     
 
-}
+  }
+  .card{
+    margin-right: auto;
+    margin-top: 15%;
+  }
+
+  .card-div{
+    margin-left: auto; 
+    
+  }
+
 
 }
 
@@ -435,4 +545,12 @@ p {
     margin-left: 18%;
     margin-bottom: 35%;
   }
+
+  .card{
+    margin-left: 15%; 
+    margin-top: 15%;
+    
+  }
+
+
 }
