@@ -367,7 +367,7 @@ p {
 }
 
 .card {
-  background-color: hsl(275, 100%, 90%);
+  background-color: hsl(275, 77%, 91%);
   margin-top: 10%;
   margin-left: auto;
   height: auto;
@@ -499,9 +499,23 @@ p {
 
 
 
+.footer{
+  background-color: hsl(276, 100%, 89%);
+  margin-left: 40%; 
+  margin-bottom: 2%;
+  margin-top: 2%;
+  align-items: center;
+}
 
-
-
+.footer-text {
+  font-family: "Merriweather", serif;
+  position: relative;
+  font-size: 1rem;
+  font-weight: 600;
+  align-items: center;
+  letter-spacing: 0.05rem;
+  text-align: center;
+}
 
 
 
@@ -643,6 +657,14 @@ p {
   .card-div{
     margin-left: auto; 
     
+  }
+  .footer-text{
+    font-size: 0.7rem;
+    
+  }
+
+  .footer{
+    margin-left: 10%;
   }
 
 

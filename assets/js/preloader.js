@@ -1,6 +1,6 @@
 function preloaderFadeOutInit(){
     $('.preloader').fadeOut('slow');
-    $('body').attr('id','');
+    $('body').attr('');
     }
     // Window load function
     jQuery(window).on('load', function () {
